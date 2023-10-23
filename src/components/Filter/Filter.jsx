@@ -5,10 +5,10 @@ export const Filter = ({filterValue, handleFilterInputChange}) => {
             <label   className={css.filterLabel}>
                 Find contacts by name
                 <input
-                    className="filterInput"
+                    className={css.filterInput}
                     type="text"
                     name="filter"
-                    placeholder="Enter name"
+                    placeholder="Search contacts"
                     value={filterValue}
                     onChange={handleFilterInputChange}
                 />

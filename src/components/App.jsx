@@ -54,7 +54,7 @@ export class App extends Component {
 
   render() {
     return (
-    <div>
+    <div className="glass">
       <h1>Phonebook</h1>
       <ContactForm handleAddContactData={this.addContactData} />
       <h2>Contacts</h2>
