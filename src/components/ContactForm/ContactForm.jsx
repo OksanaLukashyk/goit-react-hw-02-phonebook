@@ -19,6 +19,7 @@ export class ContactForm extends Component {
     };
     
     this.props.handleAddContactData(contactData);
+    this.setState({ name: '', number: '' });
     };
 
     handleInputChange = evt => {
